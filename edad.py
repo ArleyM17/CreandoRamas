@@ -1,5 +1,5 @@
-nombre= "karina"
-edad= 30
+nombre= input("Ingrese por favor su nombre: ")
+edad= int(input("ingrese por favor su edad"))
 if edad >=18:
     print(f"{nombre}, Eres mayor de edad")
 else:

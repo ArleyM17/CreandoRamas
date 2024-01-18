@@ -1,5 +1,5 @@
-numero =20
+numero =int(input("Ingrese un numero positivo: "))
 if numero %2==0:
     print(f"El numero {numero} es par")
 else:
-    print("El numero es impar")
+    print(f"El numero {numero} es impar")
